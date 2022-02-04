@@ -1,0 +1,13 @@
+name: base-app-ts-template
+description: Base template to work with typescript stack
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
+  - label: Service name
+    type: text
+    name: service_name
+    default: service-name
