@@ -1,11 +1,13 @@
 {
     "name": "{{service_name}}",
-    "version": "{{ inputs.project_version }}",
+    "version": "0.0.1",
     "bin": {
       "typescript": "bin/{{service_name}}-bin.js"
     },
+    "main": "lib/service-nameservice-stack.js",
+    "types": "lib/service-name-service-stack.d.ts",
     "scripts": {
-      "build": "tsc",
+      "build": "jsii",
       "package": "jsii-pacmak",
       "lint": "eslint --ext=ts .",
       "test": "jest",
@@ -17,6 +19,10 @@
       "name": "TODO",
       "email": "",
       "url": "https://github.com/TODO"
+    },
+    "repository": {
+        "url": "https://github.com/username/TODO",
+        "type": "git"
     },
     "devDependencies": {
       "@types/jest": "^27.0.3",
@@ -30,6 +36,8 @@
       "eslint-config-airbnb-base": "^15.0.0",
       "eslint-plugin-import": "^2.25.3",
       "jest": "^27.4.5",
+      "jsii": "^1.47.0",
+      "jsii-pacmak": "^1.47.0",
       "ts-jest": "^27.1.2",
       "ts-node": "^10.4.0",
       "typescript": "~4.5.4"
