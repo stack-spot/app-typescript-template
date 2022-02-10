@@ -7,7 +7,9 @@ inputs:
     type: text
     name: project_name
     default: project-name
+    global: true
   - label: Service name
     type: text
     name: service_name
     default: service-name
+    global: true
