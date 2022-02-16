@@ -4,4 +4,4 @@ import * as cdk from '@aws-cdk/core';
 import { {{service_name|title|replace("-", "")}}ServiceStack } from '../lib/{{service_name}}-service-stack';
 
 const app = new cdk.App();
-new {{service_name|title|replace("-", "")}}ServiceStack(app, 'OpenApiPluginServiceStack');
+new {{service_name|title|replace("-", "")}}ServiceStack(app, '{{service_name|title|replace("-", "")}}ServiceStack');
