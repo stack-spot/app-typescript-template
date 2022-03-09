@@ -17,7 +17,7 @@ inputs:
 
 displayName: Typescript + CDK
 
-category: backend
+category: Backend
 
 compatibility:
   - NodeJS 14.x
