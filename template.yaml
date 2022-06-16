@@ -14,17 +14,20 @@ inputs:
     default: service-name
     global: true
 
-
 displayName: Typescript + CDK
 
 category: Backend
 
 compatibility:
   - NodeJS 14.x
-  - CDK 1.x 
+  - CDK 2.x
 
-about: about.md
+about: docs/about.md
 
-usage: usage.md
+usage: docs/usage.md
 
-technologies: [ "Typescript", "CDK" ]
+implementation: docs/implementation.md
+
+technologies:
+  - Typescript
+  - CDK
