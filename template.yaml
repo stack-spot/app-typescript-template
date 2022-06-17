@@ -1,4 +1,4 @@
-name: base-app-ts-template
+name: app-typescript-template
 description: Base template to work with typescript stack
 types:
   - app-template
