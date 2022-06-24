@@ -4,8 +4,8 @@
   "bin": {
     "typescript": "bin/{{service_name}}-bin.js"
   },
-  "main": "lib/service-nameservice-stack.js",
-  "types": "lib/service-name-service-stack.d.ts",
+  "main": "lib/{{service_name}}-service-stack.js",
+  "types": "lib/{{service_name}}-service-stack.d.ts",
   "scripts": {
     "build": "jsii",
     "package": "jsii-pacmak",
